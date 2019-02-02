@@ -709,7 +709,7 @@ var prefix = "-";
     let args = message.content.split(' ').slice(1).join(' ');
 if(message.content.split(' ')[0] == prefix + 'bc') {
     if (!args[1]) {
-message.channel.send(`** - أستعمل : -bc [الرسالة] \n يمكنك أرسال صوره مع البرودكاست :smile:**`);
+message.channel.send(`** - أستعمل : ~bc [الرسالة] \n يمكنك أرسال صوره مع البرودكاست :smile:**`);
 return;
 }
         message.guild.members.forEach(m => {
